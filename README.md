@@ -10,29 +10,29 @@ This is final project of 2023-1 IoT practice course. In this project, we design 
 
 ## How to run (on Mac)
 - Install Libraries
-  > - opencv
+  - opencv
   ```bash
   brew install opencv
   ```
-  > - portaudio
+  - portaudio
   ```bash
   brew install portaudio
   ```
 - Compile (you can also compile both server.cpp and client.cpp using makefile)
-  > - server.cpp
+  - server.cpp
   ```bash
   g++ server.cpp -o server -std=c++11
   ```
-  > - client.cpp
+  - client.cpp
   ```bash
   g++ client.cpp -o client $(pkg-config --cflags --libs portaudiocpp) $(pkg-config --cflags --libs opencv4) -std=c++11
   ```
 - Run
-  > - server
+  - server
   ```bash
   ./server [port]
   ```
-  > - client
+  - client
   ```bash
   ./client [address] [port] [id]
   ```
