@@ -21,6 +21,10 @@
   ```
 - Run
   > - server
-  > > ./server [port]
+  ```bash
+  ./server [port]
+  ```
   > - client
-  > > ./client [address] [port] [id] 
+  ```bash
+  ./client [address] [port] [id]
+  ```
