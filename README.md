@@ -4,7 +4,7 @@
 This is final project of 2023-1 IoT practice course. In this project, we design our own server-client program that provides video chat function.
 
 ## Requirements
-- c++ (11)
+- c++11
 - opencv4
 - portaudio
 
