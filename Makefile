@@ -1,8 +1,8 @@
 CC = g++
 CFLAGS = -g -Wall
 
-OPENCV = `pkg-config opencv4 —cflags —libs`
-PORTAUDIO = `pkg-config portaudiocpp —cflags —libs`
+OPENCV = $$(pkg-config --cflags --libs opencv4)
+PORTAUDIO = $$(pkg-config --cflags --libs portaudiocpp)
 LIBS = $(OPENCV) $(PORTAUDIO)
 
 all: 
