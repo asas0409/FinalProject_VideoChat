@@ -32,3 +32,7 @@ This is final project of 2023-1 IoT practice course. In this project, we design 
   ```bash
   ./client [address] [port] [id]
   ```
+
+## Reference
+- [opencv](https://opencv.org/)
+- [portaudio](http://www.portaudio.com/)
