@@ -4,8 +4,11 @@
 - opencv
 - portaudio
 
-## How to run
+## How to run (on Mac)
 - Install Libraries
-  > - hi
+  > - opencv
+  > > brew install opencv 
+  > - portaudio
+  > > brew install portaudio
 - Compile
 - Run
