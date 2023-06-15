@@ -6,6 +6,6 @@
 
 ## How to run
 - Install Libraries
-  >hi
+  > - hi
 - Compile
 - Run
