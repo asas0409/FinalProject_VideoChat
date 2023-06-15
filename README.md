@@ -10,7 +10,7 @@
   > > brew install opencv 
   > - portaudio
   > > brew install portaudio
-- Compile
+- Compile (you can also compile both server.cpp and client.cpp using makefile)
   > - server.cpp
   ```bash
   g++ server.cpp -o server -std=c++11
