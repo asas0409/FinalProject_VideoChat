@@ -17,7 +17,7 @@
   ```
   > - client.cpp
   ```bash
-  g++ client.cpp -o client '$'(pkg-config --cflags --libs portaudiocpp) \$(pkg-config --cflags --libs opencv4) -std=c++11
+  g++ client.cpp -o client $(pkg-config --cflags --libs portaudiocpp) $(pkg-config --cflags --libs opencv4) -std=c++11
   ```
 - Run
   > - server
