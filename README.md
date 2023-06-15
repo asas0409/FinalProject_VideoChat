@@ -16,7 +16,9 @@
   g++ server.cpp -o server -std=c++11
   ```
   > - client.cpp
-  > > g++ client.cpp -o client '$'(pkg-config --cflags --libs portaudiocpp) \$(pkg-config --cflags --libs opencv4) -std=c++11
+  ```bash
+  g++ client.cpp -o client '$'(pkg-config --cflags --libs portaudiocpp) \$(pkg-config --cflags --libs opencv4) -std=c++11
+  ```
 - Run
   > - server
   > > ./server [port]
