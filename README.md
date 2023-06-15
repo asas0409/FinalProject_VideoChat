@@ -5,3 +5,6 @@
 - portaudio
 
 ## How to run
+- Install Libraries
+- Compile
+- Run
