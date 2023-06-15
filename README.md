@@ -5,6 +5,7 @@
 - portaudio
 
 ## Introduction
+This is final project of 2023-1 IoT practice course. In this project, we design our own server-client program that provides video chat function.
 
 ## How to run (on Mac)
 - Install Libraries
